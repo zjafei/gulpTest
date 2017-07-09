@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+build
+# production
+#/dist
+
+# misc
+.DS_Store
+.idea
+npm-debug.log*
+
+#ignore config file for proxy
+#.roadhogrc
+#.roadhogrc.js
+
+#api
+#/api
+
+#/public/index.html
+#webpack.config.json
+#jest_0
